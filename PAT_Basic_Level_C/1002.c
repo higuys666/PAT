@@ -6,7 +6,7 @@
 #include<stdlib.h>
 int main()
 {
-	printf("hello frank!");
+	printf("frank!");
 	system("pause");
 	return 0;	
 }
