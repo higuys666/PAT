@@ -10,6 +10,7 @@ int main()
 {
 int i,n;
 scanf("%d",&n);
+
 for(i=0;n>1;i++){
  if(n%2==0){
 	 n=n/2;
@@ -18,7 +19,21 @@ for(i=0;n>1;i++){
 	 n=(3*n+1)/2;
   }
  }
+ /*
+ while(n>1){
+ if(n%2==0){
+	 n=n/2;
+  }
+ else{
+	 n=(3*n+1)/2;
+  }
+ i++;
+ }
+ */
 printf("%d\n",i);
 system("pause"); 
 return 0;
 }
+
+
+
